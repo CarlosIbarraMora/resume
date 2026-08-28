@@ -40,12 +40,20 @@ const projects = [
     tech: ["Unity", "C#", "VR"],
   },
   {
+  title: "Laboratorio Digital — UABC",
+  category: "BACKEND · FREELANCE",
+  description:
+    "Digital laboratory platform developed for Universidad Autónoma de Baja California. Built a secure file upload module with Node.js and Express, implementing file type validation, rate limiting and external storage with Supabase to improve security and reduce server exposure.",
+  tech: ["Node.js", "Express", "Supabase", "S3 Storage", "Security"],
+},
+  {
     title: "LeetArena — Competitive Coding Platform",
     category: "BACKEND · TEAM PROJECT",
     description:
       "Backend platform for competitive programming matches built with Java and Spring Boot. Worked on match lifecycle features including configurable match duration, automatic expiration handling and scheduling, as well as integration and manual testing with PostgreSQL.",
     tech: ["Java", "Spring Boot", "PostgreSQL", "Maven", "JUnit"],
   },
+  
 ];
 
 function App() {
