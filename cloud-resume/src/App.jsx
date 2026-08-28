@@ -154,7 +154,7 @@ function App() {
 
                 <div>
                   <strong>English</strong>
-                  <span>Cambridge B2</span>
+                  <span>Cambridge C1</span>
                 </div>
               </div>
             </section>
